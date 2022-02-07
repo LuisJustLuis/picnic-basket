@@ -255,3 +255,12 @@ img`
     . . 4 4 e e e . . . . . . . . . 
     `
 ]
+for (let index = 0; index <= 4; index++) {
+    picnicFood.setImage(Picnic_food[index])
+    pause(100)
+}
+picnicFood.destroy()
+game.splash(game.askForString("What was in the basket?"))
+if (false && false) {
+	
+}
